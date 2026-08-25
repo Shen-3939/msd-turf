@@ -5,7 +5,7 @@
 const SITE_CONFIG = {
   BUSINESS_NAME: "MSD Turf",
   ADDRESS: "136/1, KTC Nagar, Thoothukudi, Tamil Nadu - 628002",
-  WHATSAPP_NUMBER: "919488123939",
+  WHATSAPP_NUMBER: "918602586075",
   GOOGLE_MAPS_URL: "https://maps.app.goo.gl/bMRCggUukLYskbFF9",
   // Modify operating hours here. The UI generates 30-minute time slots from these values.
   OPERATING_HOURS: {
