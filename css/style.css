@@ -932,8 +932,31 @@ section {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 22px;
 }
+/* Single Football Coaching Card */
+.service-grid.single-service {
+  display: flex;
+  justify-content: center;
+}
+
+.service-grid.single-service .service-card {
+  width: 100%;
+  max-width: 460px;
+}
 .service-image {
   position: relative;
+}
+/* Football Coaching - Image Only Card Full Cover */
+.service-image.image-only {
+  height: 100%;
+  min-height: 460px;
+}
+
+.service-image.image-only img {
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  object-fit: cover;
+  display: block;
 }
 .service-image img {
   width: 100%;
@@ -1060,7 +1083,7 @@ section {
   box-shadow: 0 20px 48px rgba(5, 17, 26, 0.09);
 }
 .facility-icon {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 18px;
 }
 .facility-card p {
